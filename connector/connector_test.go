@@ -14,13 +14,13 @@ type testCase struct {
 var testCases = []testCase{
 	{
 		description: "Sample",
-		input: "+ pelun pelun pehrr\n? pe\n> h\n+ pehem pehem pehem\n? pe\n",
-		expected: "Added successfully!\npelun\npehrr\nAdded successfully!\npehem\n",
+		input:       "+ pelun pelun pehrr\n? pe\n> h\n+ pehem pehem pehem\n? pe\n",
+		expected:    "Added successfully!\npelun\npehrr\nAdded successfully!\npehem\n",
 	},
 	{
 		description: "Test 1",
-		input: "+ abc abc abacaba cab\n? ab\n> c\n? c\n+ abbc abbc ccaba abbc cab\n? a\n> b\n> a\n? c\n> c\n? d\n",
-		expected: "Added successfully!\nabc\nabc\ncab\nAdded successfully!\nabbc\nabbc\nabacaba\ncab\nccaba\nNo candidates found!\n",
+		input:       "+ abc abc abacaba cab\n? ab\n> c\n? c\n+ abbc abbc ccaba abbc cab\n? a\n> b\n> a\n? c\n> c\n? d\n",
+		expected:    "Added successfully!\nabc\nabc\ncab\nAdded successfully!\nabbc\nabbc\nabacaba\ncab\nccaba\nNo candidates found!\n",
 	},
 }
 
