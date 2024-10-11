@@ -22,8 +22,7 @@ type Helper struct {
 
 func NewHelper() *Helper {
 	n := NewNode(nil)
-	h := &Helper{n, n, ""}
-	return h
+	return &Helper{n, n, ""}
 }
 
 func (h *Helper) clear() {
