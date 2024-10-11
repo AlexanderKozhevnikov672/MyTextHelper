@@ -58,3 +58,9 @@ go run main.go
 ## Пример работы проекта
 
 ![Work example](./screenshots/work_example.png)
+
+## Запуск тестов
+
+```bash
+go test -v ./connector./...
+```
